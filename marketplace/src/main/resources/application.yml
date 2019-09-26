@@ -1,0 +1,22 @@
+zuul:
+  prefix: /marketplace
+  routes:
+    Bookings-Manager:
+      path: /bookingsManager/**
+      url: http://localhost:1720
+    Provider:
+      path: /provider/**
+      url: http://localhost:1718
+    User-Manager:
+      path: /userManager/**
+      url: http://localhost:1721
+    Notification-Service:
+      path: /notificationService/**
+      url: http://localhost:1722
+    Super-Admin:
+      path: /superAdmin/**
+      url: http://localhost:1723
+    Venue-Search:
+      path: /venueSearch/**
+      url: http://localhost:1719
+    
